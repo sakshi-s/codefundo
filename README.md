@@ -1,2 +1,9 @@
-# codefundo
-blah blah
+Basic Idea: App to sense earthquakes and provide appropriate audio instructions
+Basic working mechanism: 
+How do users get started: Basic signup in the app
+Dataset/ Input used: User's signup information (important : home location) , current location in case of internet, access of contacts
+Technology used: smartphone sensors
+Explanation:
+Our idea for Code.fun.do is to develop an app which can sense earthquakes using the inbuilt sensors present in smartphones and provide subsequently effective measures to the user depending on their location and the availability of mobile network.
+Our app will contain two segments , one for the situations where mobile network is present and the other where it is not present. We will be taking the input of user's preferred language during the signup process itself for effective communication. If in the time of calamity, the smartphone has internet access then the app will try to seek the user's location and give him instructions in the preferred language based on that. We would like to implement it first in a small scale for example, IIT Guwahati so that we can a have a fair idea about every location and give the user best possible evacuation place. For example, if the user's current location is a hostel, academic complex, food court or any closed building, they'll be instructed to evacuate to nearest open area, having the app sensed the earthquake itself. And if they're already in some open area, it'll just instruct to stay away from trees, poles etc. which may fall. It will be especially effective if the user is sleeping as it is difficult to sense earthquakes during sleep. In offline mode, the instructions and evacuation locations will be default and may not be very precise. It is possible that many people maybe unaware of this app so to provide safety to larger chunks of population we could have it as a default app in Android. 
+The user has to mark themselves safe. If they did not respond to the instructions/warnings or didn't mark safe, their current location(if available) or probable location ( home location) and contact details to saved contact details of friends and family and also to concerned authorities for immediate help.
